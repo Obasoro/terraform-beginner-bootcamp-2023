@@ -9,3 +9,5 @@ This project wwould use semantic versioning for tagging
 - **Minor** version when you add backward in compatible manner
 - **Patch** version when add backward compatible bug fixes
 
+# tagging
+git tag {version}
