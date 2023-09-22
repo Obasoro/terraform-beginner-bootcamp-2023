@@ -195,3 +195,11 @@ To check if you cli environment of cloud provider is set
 ```sh
 aws sts get-caller-identity
 ```
+
+A json output is release after using the above command
+
+```json
+    "UserId": "xxxxxxxxxxxxxx",
+    "Account": "yyyyyyyyyyyy",
+    "Arn": "arn:aws:iam::yyyyyyyyyyy:user/Terraform-bootcamp"
+```
