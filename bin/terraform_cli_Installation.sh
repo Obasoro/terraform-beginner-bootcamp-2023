@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-PROJ_ROOT='workspace/terraform-beginner-bootcamp-2023'
+PROJECT_ROOT='workspace/terraform-beginner-bootcamp-2023'
 
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common -y
 
@@ -22,4 +22,4 @@ sudo apt update
 
 sudo apt-get install terraform -y
 
-cd $PROJ_ROOT
+cd $PROJECT_ROOT

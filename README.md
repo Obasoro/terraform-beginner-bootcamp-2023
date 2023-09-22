@@ -177,3 +177,5 @@ UBUNTU_CODENAME=jammy
 [gitpod](https://www.gitpod.io/docs/introduction)
 
 >>>>>>> origin/3-refactor-terraform-cli
+
+In practice do not use `--force` in git
