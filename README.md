@@ -179,3 +179,19 @@ UBUNTU_CODENAME=jammy
 >>>>>>> origin/3-refactor-terraform-cli
 
 In practice do not use `--force` in git
+
+
+#### AWS CLI Refactor
+
+Installing AWS cli using bash script
+
+[awscli] ./bin/install_aws_cli.sh
+
+[awscli](https://aws.amazon.com/cli/)
+[aws cli configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
+
+To check if you cli environment of cloud provider is set
+
+```sh
+aws sts get-caller-identity
+```
