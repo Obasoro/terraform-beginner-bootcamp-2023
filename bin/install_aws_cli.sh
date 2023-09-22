@@ -2,7 +2,7 @@
 
 PROJECT_ROOT='/workspace/terraform-beginner-bootcamp-2023'
 
-rm --f '/workspace/awscliv2.zip'
+rm -f '/workspace/awscliv2.zip'
 
 rm -rf '/workspace/aws'
 
