@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-cd /workspace
+PROJECT_ROOT='workspace/terraform-beginner-bootcamp-2023'
 
 rm --f '/workspace/awscliv2.zip'
 
@@ -10,5 +10,9 @@ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip
 unzip awscliv2.zip
 sudo ./aws/install
 
-cd $PROJECT_ROOT
+aws sts get-caller-identity
+
+#cd $PROJECT_ROOT
+
+cd /
 
