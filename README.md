@@ -203,3 +203,47 @@ A json output is release after using the above command
     "Account": "yyyyyyyyyyyy",
     "Arn": "arn:aws:iam::yyyyyyyyyyy:user/Terraform-bootcamp"
 ```
+
+#### Week-1
+
+Create static website using s3 bucket
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple HTML Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple HTML Page</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>About Me</h2>
+        <p>This is a simple HTML page created for demonstration purposes.</p>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 My Simple HTML Page</p>
+    </footer>
+</body>
+</html>
+
+```
+
+Install npm for global installation
+
+```
+npm install http-server -g
+
+```
+
