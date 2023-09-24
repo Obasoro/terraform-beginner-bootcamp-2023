@@ -203,3 +203,4 @@ A json output is release after using the above command
     "Account": "yyyyyyyyyyyy",
     "Arn": "arn:aws:iam::yyyyyyyyyyy:user/Terraform-bootcamp"
 ```
+
