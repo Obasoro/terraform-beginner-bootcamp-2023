@@ -203,4 +203,30 @@ A json output is release after using the above command
     "Account": "yyyyyyyyyyyy",
     "Arn": "arn:aws:iam::yyyyyyyyyyy:user/Terraform-bootcamp"
 ```
+Module are TEMPLATES usefulness
 
+- Providers are API interfaces to connect with registry
+- Modules are ways to refactor terraform code modular
+- Registry Location where all terraform codes are stored and can be downloaded
+
+There are major terraform command namely;
+
+`terraform init`
+
+The `init` downloads the terraform providers binaries to be used
+
+`terraform plan`
+
+The `plan` generate a changeset that would be used for the project
+
+`terraform validate`
+
+`terraform output`
+
+`terraform apply`
+
+The `apply` will run the plan and changeset and execute the configuration stated in the plan
+
+`Terraform lock file` this are generated when the plan and apply command is run. It should be stored in our github repo 
+
+`.terraform.tfstate` contain sensitive data and should not be commited to version control system
