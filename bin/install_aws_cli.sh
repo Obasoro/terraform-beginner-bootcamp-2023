@@ -1,18 +1,18 @@
 #!/bin/env bash
 
-PROJECT_ROOT='workspace/terraform-beginner-bootcamp-2023'
+PROJECT_ROOT='/workspace/terraform-beginner-bootcamp-2023'
 
-rm --f '/workspace/awscliv2.zip'
+cd /workspace
 
-rm -f '/workspace/aws'
+rm -f /workspace/awscliv2
+rm -rf /workspace/aws
 
-curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" 
 unzip awscliv2.zip
 sudo ./aws/install
 
 aws sts get-caller-identity
 
-#cd $PROJECT_ROOT
+cd $PROJECT_ROOT
 
-cd /
-
+cd /workspace/terraform-beginner-bootcamp-2023
