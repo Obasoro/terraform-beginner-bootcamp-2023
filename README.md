@@ -277,3 +277,10 @@ The `apply` will run the plan and changeset and execute the configuration stated
 
 `.terraform.tfstate` contain sensitive data and should not be commited to version control system
 >>>>>>> 10-terraform-random-state
+
+# AWS s3 bucket rules in Terraform
+
+[hashicorp](https://registry.terraform.io/providers/hashicorp/aws/latest)
+
+[hasicorp resource s3 naming](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)
+
