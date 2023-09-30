@@ -284,3 +284,7 @@ The `apply` will run the plan and changeset and execute the configuration stated
 
 [hasicorp resource s3 naming](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)
 
+#### Challenges
+
+
+
