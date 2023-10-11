@@ -294,3 +294,24 @@ The `apply` will run the plan and changeset and execute the configuration stated
 
 When login in, `/home/gitpod/.terraform.d/credentials.tfrc.json` is created and the terraform credential are stored in there.
 
+#### Errro
+
+Experiencing this error
+```sh
+
+│ Error: No valid credential sources found
+│ 
+│   with provider["registry.terraform.io/hashicorp/aws"],
+│   on main.tf line 27, in provider "aws":
+│   27: provider "aws" {
+│ 
+│ Please see https://registry.terraform.io/providers/hashicorp/aws
+│ for more information about providing credentials.
+│ 
+│ Error: failed to refresh cached credentials, no EC2 IMDS role found,
+│ operation error ec2imds: GetMetadata, request canceled, context deadline
+│ exceeded
+│ 
+╵
+Operation failed: failed running terraform plan (exit 1)```
+
