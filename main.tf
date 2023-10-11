@@ -1,7 +1,14 @@
 
 terraform {
+  
+    cloud {
+      organization = "AWS-Project-19"
+      workspaces {
+        name = "Terrahouse-infra"
+      }
+    }
   required_providers {
-    random = {
+      random = {
       source = "eda-dev-test/random"
       version = "6.6.8"
     }
@@ -10,12 +17,16 @@ terraform {
       version = "5.19.0"
     }
   }
+
 }
+  
 
 provider "random" {
   # Configuration options
 }
-
+provider "aws" {
+  
+}
 
 resource "random_string" "bucket_name" {
   length           = 16

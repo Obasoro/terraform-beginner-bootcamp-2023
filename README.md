@@ -284,3 +284,13 @@ The `apply` will run the plan and changeset and execute the configuration stated
 
 [hasicorp resource s3 naming](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)
 
+#### Terraform Cloud
+ New to TFC? Follow these steps to instantly apply an example configuration:
+```sh 
+    git clone https://github.com/hashicorp/tfc-getting-started.git
+    cd tfc-getting-started
+    scripts/setup.sh
+```
+
+When login in, `/home/gitpod/.terraform.d/credentials.tfrc.json` is created and the terraform credential are stored in there.
+
