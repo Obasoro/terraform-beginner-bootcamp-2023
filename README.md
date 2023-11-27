@@ -315,3 +315,11 @@ Experiencing this error
 ╵
 Operation failed: failed running terraform plan (exit 1)```
 
+#### Week One
+
+```sh
+npm install http-server -g
+```
+```sh
+http-server
+```
