@@ -315,3 +315,23 @@ Experiencing this error
 ╵
 Operation failed: failed running terraform plan (exit 1)```
 
+#### Week One
+
+```sh
+npm install http-server -g
+```
+```sh
+http-server
+```
+
+#### copy into s3
+```sh
+aws s3 cp public/index s3://<bucket-name>/index.html
+```
+#### 403
+
+```
+Enable the bucket policy so as to allow for s3 to serve the client but use the cloudfront distribution.
+
+Use the endpoint hosting for the website hosting
+```
