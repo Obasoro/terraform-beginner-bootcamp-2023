@@ -335,3 +335,9 @@ Enable the bucket policy so as to allow for s3 to serve the client but use the c
 
 Use the endpoint hosting for the website hosting
 ```
+
+### Week-1
+
+Commented out the terraform cloud provider within the providers.tf
+
+Deleted the lock file and .terraform filr
