@@ -2,8 +2,6 @@
 
 ## Table of Content
 
-- [Semantic versioning](#semantic version)
-- [Install of Terraform CLI](#terraform cli)
-
+- [week0-journal](/journal/week0)
 
 [Github-TOC-Markdown)(https://ecotrust-canada.github.io/markdown-toc/)
