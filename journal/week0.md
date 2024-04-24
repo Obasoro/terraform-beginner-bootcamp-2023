@@ -1,14 +1,13 @@
-
 - [Terraform Beginner Bootcamp 2023](#terraform-beginner-bootcamp-2023)
   * [Table of Content](#table-of-content)
 - [Sementic Versioning](#sementic-versioning)
-  - [Search for the environment variables](#search-for-the-environment-variables)
-  - [Setting and unsetting variables within the terminal](#setting-and-unsetting-variables-within-the-terminal)
-  - [Search for the environment variables](#search-for-the-environment-variables-1)
-  - [Setting and unsetting variables within the terminal](#setting-and-unsetting-variables-within-the-terminal-1)
-  - [Terrafor CLI installation](#terrafor-cli-installation)
-  - [Linux version](#linux-version)
-  - [Define class, user and group](#define-class--user-and-group)
+      - [Search for the environment variables](#search-for-the-environment-variables)
+      - [Setting and unsetting variables within the terminal](#setting-and-unsetting-variables-within-the-terminal)
+      - [Search for the environment variables](#search-for-the-environment-variables-1)
+      - [Setting and unsetting variables within the terminal](#setting-and-unsetting-variables-within-the-terminal-1)
+      - [Terrafor CLI installation](#terrafor-cli-installation)
+      - [Linux version](#linux-version)
+      - [Define class, user and group](#define-class--user-and-group)
       - [Gitpod](#gitpod)
       - [AWS CLI Refactor](#aws-cli-refactor)
       - [Week-1](#week-1)
@@ -17,5 +16,8 @@
       - [Errro](#errro)
       - [copy into s3](#copy-into-s3)
       - [403](#403)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
