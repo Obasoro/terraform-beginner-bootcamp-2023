@@ -340,4 +340,16 @@ Use the endpoint hosting for the website hosting
 
 Commented out the terraform cloud provider within the providers.tf
 
-Deleted the lock file and .terraform filr
+Deleted the lock file and .terraform file
+
+### Terraform flags
+
+In terraform we can set two kinds of variables:
+
+ - Environmental variables = those you would set within your bash terminal eg. AWS credentials
+
+ - Terraform variables - those that you would normally set in your tfvars files
+
+### var flag
+
+We can use the '-var' flag to set input variables or override a variable in the tfvars file
