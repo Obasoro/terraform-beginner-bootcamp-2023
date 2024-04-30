@@ -7,11 +7,11 @@ terraform {
  #       name = "Terrahouse-infra"
  #      }
  #   }
-  required_providers {
-      random = {
-      source = "eda-dev-test/random"
-      version = "6.6.8"
-    }
+   required_providers {
+  #     random = {
+  #     source = "eda-dev-test/random"
+  #     version = "6.6.8"
+  #   }
     aws = {
       source = "hashicorp/aws"
       version = "5.19.0"

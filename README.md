@@ -356,3 +356,13 @@ We can use the '-var' flag to set input variables or override a variable in the 
 
 [Github-TOC-Markdown)(https://ecotrust-canada.github.io/markdown-toc/)
 
+`tf import aws_s3_bucket.bucket [bucket_name]`
+
+If you loose 
+
+## Managing configuration drift
+
+### Terraform import
+
+
+
