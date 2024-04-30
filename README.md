@@ -1,9 +1,9 @@
 # Terraform Beginner Bootcamp 2023
 
-# Sementic Versioning
+## Table of Content
 
-This project wwould use semantic versioning for tagging
-[semantic version](https://semver.org)
+- [week0-journal](/journal/week0)
+
 
 - **MAJOR** When you make a major incompatible API changes
 - **Minor** version when you add backward in compatible manner
@@ -52,7 +52,7 @@ gp env Class_Name='Kunle'
 
 
 
-<<<<<<< HEAD
+
 #### Search for the environment variables
 
 ` env | grep GITPOD`, `env` will list all the nvironment variables within that workspace
@@ -176,7 +176,7 @@ UBUNTU_CODENAME=jammy
 #### Gitpod
 [gitpod](https://www.gitpod.io/docs/introduction)
 
->>>>>>> origin/3-refactor-terraform-cli
+
 
 In practice do not use `--force` in git
 
@@ -203,7 +203,7 @@ A json output is release after using the above command
     "Account": "yyyyyyyyyyyy",
     "Arn": "arn:aws:iam::yyyyyyyyyyy:user/Terraform-bootcamp"
 ```
-<<<<<<< HEAD
+
 
 #### Week-1
 
@@ -276,7 +276,7 @@ The `apply` will run the plan and changeset and execute the configuration stated
 `Terraform lock file` this are generated when the plan and apply command is run. It should be stored in our github repo 
 
 `.terraform.tfstate` contain sensitive data and should not be commited to version control system
->>>>>>> 10-terraform-random-state
+
 
 # AWS s3 bucket rules in Terraform
 
@@ -353,3 +353,6 @@ In terraform we can set two kinds of variables:
 ### var flag
 
 We can use the '-var' flag to set input variables or override a variable in the tfvars file
+
+[Github-TOC-Markdown)(https://ecotrust-canada.github.io/markdown-toc/)
+
