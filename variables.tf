@@ -5,3 +5,7 @@ variable "user_uuid" {
     error_message = "example_variable must not be empty"
     }
 }
+
+variable "bucket_name"  {
+  type = string
+}
